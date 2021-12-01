@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* margin: auto;  */
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 2620px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 70%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.li{
+    text-decoration: none;
+    margin: 0 25px 0 25px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+}
+.btn p{
+    color: #fff;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+
+}
+.first{
+    width: 50%;
+    height: 100%
+}
+.second{
+    width: 50%;
+    height: 100%;
+}
+.first .img{
+    width: 250px;
+    margin-top: 80px;
+}
+.first img{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.first button{
+    width: 170px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius:10px;
+    border: none;
+    background: #5454D4;
+    color: #fff;
+}
+.second{
+    background: url(./IMG/Hero\ 3D.svg) no-repeat center/contain;
+}
+.main_container{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.second_main{
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+}
+.third{
+    width: 40%;
+    height: 100%;
+    background: url(./IMG/Content\ Image\ 02.svg) no-repeat center/contain;
+}
+.four{
+    width: 50%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+ 
+}
+.four_child{
+    width: 80%;
+    padding-top: 110px;
+    height: 100%;
+   
+}
+.four_child img{
+    width: 400px;
+    margin: 0 0 20px 0;
+}
+.four_child> a{
+    text-decoration: none;
+    color: blue;
+    
+}
+.four_child a h5{
+    font-family: sans-serif;
+}
+.third_main{
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+}
+.five{
+    width: 50%;
+    height: 400px;
+    padding-top: 120px;
+}
+.five img{
+    width: 400px;
+    margin: 0 0 20px 0;
+}
+.five a{
+    text-decoration: none;
+    color:blue;
+}
+.six{
+    width: 50%;
+    height: 100%;
+    background: url(./IMG/Content\ Image.svg) no-repeat center/contain;
+}
+.four_main{
+    width: 99.99%;
+    height: 200px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.seven{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cholk{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-left: 45px;
+    justify-content: center;
+}
+.eight{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nine{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.shrift{
+    width: 250px;
+}
+.five_main{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.get{
+    width: 50%;
+    height: 100%;
+}
+.get img{
+    width: 85%;
+}
+.button{
+    width: 40%;
+    height: 30%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.year{
+    width: 50%;
+    border:none;
+    background: #EFEFEF;
+    border-radius: 10px 0 0 10px;
+}
+.year a{
+    text-decoration: none;
+}
+.month{
+    width: 50%;
+    border:none;
+    border-radius: 0 10px 10px 0;
+}
+.month a{
+    color: #000;
+    text-decoration: none;
+}
+.six_main{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one{
+    width: 32%;
+    height: 95%;
+    background: url(./IMG/1.svg) no-repeat center/contain;
+    border-radius: 10px;
+}
+.one button{
+    margin-top:304px;
+    width: 244px;
+    margin-left: 30px;
+    height: 51px;
+    border-radius:6px;
+    border: 1px solid rgb(163, 163, 163);
+    background: #fff;
+    color:blue;
+}
+.two{
+    width: 32%;
+    height: 100%;
+    background: url(./IMG/1\ copy\ 7.svg) no-repeat center/cover;
+    border-radius: 10px;
+}
+.two button{
+    margin-top:311px;
+    width: 257px;
+    margin-left: 23px;
+    height: 51px;
+    border-radius:6px;
+    border: none;
+    background: #9F3919;
+    color:#fff;
+}
+.three{
+    width: 32%;
+    height: 95%;
+    background: url(./IMG/1\ copy\ 8.svg) no-repeat center/contain;
+    border-radius: 10px;
+}
+.three button{
+    margin-top:304px;
+    width: 244px;
+    margin-left: 30px;
+    height: 51px;
+    border-radius:6px;
+    border: 1px solid rgb(163, 163, 163);
+    background: #fff;
+    color:blue;
+}
+.navbar .btn:hover{
+    border: 2px solid blue;
+    background:#9F3919;
+}
+.li:hover{
+    color: red ;
+}
+.first button:hover{
+    border: 2px solid #3232f1;
+    background-color: red;
+}
+.year:hover{
+    background: #5454D4;
+}
+.month:hover{
+    background: #5454D4;
+}
+.one button:hover{
+    border: 2px solid grey
+}
+.two button:hover{
+    border: 2px solid #fff;
+    background:#FF7143;
+}
+.three button:hover{
+    border: 2px solid grey
+}
